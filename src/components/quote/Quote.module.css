@@ -1,0 +1,9 @@
+.Quote_text {
+  color: var(--secondary-text);
+  font-style: italic;
+}
+
+.Quote_author {
+  color: var(--tertiary-text);
+  font-style: italic;
+}

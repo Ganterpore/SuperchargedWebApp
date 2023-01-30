@@ -50,6 +50,12 @@
   max-height: 100px;
   flex: 1 1 auto;
   border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.App-button:hover {
+	opacity: 0.85;
 }
 
 .Workout-button {
