@@ -34,6 +34,7 @@
   flex: 1 1 auto;
   flex-flow: column;
   gap: 20px;
+  width: 100%;
   background-image: linear-gradient(var(--primary-background), var(--secondary-background));
 }
 
