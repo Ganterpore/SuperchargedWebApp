@@ -1,5 +1,11 @@
+@import url("styles/variables.css");
+
 .App {
   text-align: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  flex-flow: column;
 }
 
 .App-logo {
@@ -14,12 +20,41 @@
 }
 
 .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex: 0 1 auto;
+  width: 100%;
   font-size: calc(10px + 2vmin);
+  background-color: var(--primary-alternate);
+  color: var(--secondary-text);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.App-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column;
+  gap: 20px;
+  background-image: linear-gradient(var(--primary-background), var(--secondary-background));
+}
+
+.App-spacer {
+  flex: 1 1 auto;
+}
+
+.App-button {
+  background-color: var(--secondary-alternate);
+  margin: 20px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: var(--primary-text);
+  max-height: 100px;
+  flex: 1 1 auto;
+  border: 0;
+}
+
+.Workout-button {
+  background-color: var(--primary-alternate);
+  color: var(--secondary-text);
 }
 
 .App-link {
